@@ -1,0 +1,87 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Maiden Orange', cursive;
+}
+
+.tm-container{
+	max-width: 800px ;
+	margin: 0 auto;
+
+}
+
+.tm-header{
+	background-color: black;
+}
+
+.tm-header::after{
+	content: "";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+.tm-logo{
+	float: left;
+
+}
+
+.tm-nav{
+	float: right;
+
+}
+
+.tm-nav ul li{
+	display: inline-block;
+}
+
+.tm-nav ul li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color: white;
+	line-height: 58.712px;
+
+}
+
+.tm-nav ul li a:hover{
+	color: blue;
+}
+
+
+
+body{
+	background-image: url('../images/bg.JPG');
+	background-color: black;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+/* code for profile pic and bio */
+
+.profimage{
+	
+	padding-top: 10px;
+	padding-left: 20px;
+	margin-left: 525px;
+	margin-top: 50px;
+	width: 400px;
+	
+	height: 300px;
+
+
+}
+.image{
+	border-radius: 50%;
+	max-width: 100%;
+}
+
+.name{
+	margin-top: 10px;
+	margin-left: 500px;
+	margin-right: : 300px;
+	width: 500px;
+	height: 200px;
+	
+	color: white;
+	padding-left: 20px
+
+}
